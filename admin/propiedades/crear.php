@@ -102,7 +102,7 @@
             
             if($resultado){
                 //echo 'Insertado correctamente';
-                header('Location: /bienesraices/admin/index.php');
+                header('Location: /bienesraices/admin/index.php?resultado=1');
             }
         }
 
